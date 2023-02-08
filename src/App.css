@@ -1,0 +1,45 @@
+.customer-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+  text-align: center;
+  float: left;
+}
+
+.customer-card h3 {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.customer-card p {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.customer-card .customer-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.customer-card .customer-data-months {
+  width: 45%;
+}
+
+.customer-card .customer-data h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.customer-card .customer-data p {
+  font-size: 14px;
+  color: #555;
+}
